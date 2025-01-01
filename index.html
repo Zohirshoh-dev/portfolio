@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        section {
+            padding: 2em;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1em;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>There is written all about me</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I learned programming in IT PARKK BUKHARA around 9 month and finally finished it succesfully, currently I have real certificate from IT PARK UZBEKISTAN. Now I'm front end developer, now soon I'm planning to go back end course, for learning programming full. Then I will be full stack developer, after that I will look for normal work.</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <!-- Example Project -->
+            <div class="project">
+                <h3>Your Doctor Nearby</h3>
+                <p>The project created about online hospital</p>
+                <a href="https://github.com/Zohirshoh-dev/shop.co">View code</a> - <a href="https://your-doctor-nearby.netlify.app/">Live demo</a>
+            </div>
+            <div class="project">
+                <h3>Alowishus Coffee</h3>
+                <p>The project created about online coffee shop</p>
+                <a href="https://github.com/zohirshoh-ahatov/Alowishus-coffee">View code</a> - <a href="https://coffee-trade.netlify.app/">Live demo</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="zohirshohahatov1@gmail.com">zohirshohahatov1@gmail.com</a></p>
+        Your email: <input type="email" placeholder="Write your email..." name="" id="">
+        Message: <input type="text" placeholder="Write something..." name="" id="">
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
